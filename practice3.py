@@ -71,3 +71,5 @@ def draw_grid():
    print(top)
 
 draw_grid()
+
+# Write a function that drawsa similar grid with four rows and four columns
