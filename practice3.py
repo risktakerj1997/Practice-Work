@@ -56,13 +56,9 @@ right_justify('smoke')
 #                                                                 + - - - - + - - - - +
 
 def draw_grid():
-   top = "+" + " - - - - +" * 2 
+   top = "+" + " - - - - +" * 2 + '\n'
    side = "|" + (" " * 9 + "|")*2 + '\n'
-   print(top)
-   print(side*4, end = "")
-   print(top)
-   print(side*4, end = "")
-   print(top)
+   print(top, side * 4, top, side * 4, top, sep = "")
 
 draw_grid()
 
