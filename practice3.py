@@ -1,4 +1,4 @@
-#The volume of a sphere with a radius r is 4/3(pie)r^3. What is the volume of sphere with the radius 5?
+# The volume of a sphere with a radius r is 4/3(pie)r^3. What is the volume of sphere with the radius 5?
 import math
 
 def volume(r):
@@ -7,7 +7,7 @@ def volume(r):
 
 print(volume(5))
 
-#the cover price of a book is $24.95, bookstores get a 40% discount, shipping is $3 first book $0.75 after, find cost for 60 books
+# the cover price of a book is $24.95, bookstores get a 40% discount, shipping is $3 first book $0.75 after, find cost for 60 books
  
 quantity = 60
 price = 24.95 ; 
